@@ -1,0 +1,148 @@
+.contact_flex{
+    position: relative;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(108, 82, 238);
+    height: 700px;
+    border-radius: 0px 0px 100px 100px;
+    overflow: hidden;
+}
+.contact_left_backImg{
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+}
+.contact_left_backImg img{
+    color: transparent;
+}
+.contact_right_backImg{
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+}
+.contact_star1{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    transform: scale(1);
+}
+.contact_star2{
+    position: absolute;
+    left: 70%;
+    top: 80%;
+    transform: scale(1);
+}
+.contact_hand{
+    position: absolute;
+    left: 10%;
+    bottom: -5px;
+}
+.contact_content{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 45px;
+    position: relative;
+    z-index: 5;
+    margin-top: 100px;
+}
+.contact_content h3{
+    font-family: Syne;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 72px;
+    text-align: center;
+}
+.contact_btnDiv{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 43px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+.joinDes_btn{
+    color: rgb(108, 82, 238);
+    min-width: 206px;
+    position: relative;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: center;
+    flex-flow: row;
+    gap: 0px;
+    max-width: 206px;
+    width: 100%;
+    border: none;
+    min-width: 25px;
+    font-weight: 500;
+    transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.follow_twitt{
+    color: white;
+    min-width: 206px;
+    font-weight: 500;
+    transition: all 0.5s ease 0s;
+    position: relative;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: center;
+    flex-flow: row;
+    gap: 0px;
+    max-width: 206px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    transition: all 0.5s ease 0s;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-image: initial;
+    border-right: none;
+    border-left: none;
+}
+.joinDes_btn div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-flow: row;
+    gap: 15px;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 400;
+}
+.follow_twitt div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-flow: row;
+    gap: 15px;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 400;
+}

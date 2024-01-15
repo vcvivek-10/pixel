@@ -1,0 +1,715 @@
+.aggregate_backGradient {
+    background: linear-gradient(147.35deg, rgb(35, 35, 36) -0.9%, rgb(21, 21, 22) 116.23%);
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.agg_backImg {
+    background-image: url(../../img/noiseOPT.webp);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+}
+
+.agg_backGridImg {
+    background-image: url(../../img/Grid.png);
+    height: 797px;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.agg_thirdImg {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.agg_thirdImg img {
+    color: transparent;
+    width: 100%;
+    height: 1000px;
+}
+
+.agg_third_twoImg {
+    position: absolute;
+    z-index: 1;
+    top: 55%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.agg_third_twoImg img {
+    color: transparent;
+    width: 100%;
+    height: 1000px;
+}
+
+.agg_third_threeImg {
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    width: 100%;
+}
+
+.agg_third_threeImg img {
+    color: transparent;
+    width: 100%;
+    height: 1000px;
+}
+
+.aggregate_main {
+    margin: 0px 100px;
+    width: 100%;
+    max-width: 1440px;
+    z-index: 5;
+}
+
+.no_spam {
+    max-width: 289px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Syne;
+}
+
+.no_span_alpha {
+    background: linear-gradient(90deg, rgb(209, 160, 255) 0%, rgb(218, 191, 255) 100%) text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+.aggregate_main_content {
+    opacity: 1;
+    transform: none;
+    position: relative;
+    margin-top: 135px;
+    height: 1400px;
+}
+
+.aggregateMain_dlex {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 120px;
+}
+
+.aggMain_left {
+    width: 100%;
+    max-width: 858px;
+    height: 100%;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+}
+
+.aggMain_left img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.noneFix {
+    width: 460px;
+    min-width: 460px;
+    max-width: 460px;
+    height: 582px;
+}
+
+.aggregate_both_dflex {
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 120px;
+    position: sticky;
+    top: 170px;
+}
+
+.aggBoth_left {
+    width: 100%;
+    max-width: 858px;
+}
+
+.aggBoth_left img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.aggBoth_right {
+    width: 460px;
+    min-width: 460px;
+    max-width: 460px;
+}
+
+.aggBoth_right h3 {
+    background: linear-gradient(90deg, rgb(209, 160, 255) 0%, rgb(218, 191, 255) 100%);
+    border-radius: 50px;
+    width: 220px;
+    height: 47px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.aggBoth_right h2 {
+    margin-top: 30px;
+    font-family: Syne;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 68px;
+    color: rgb(255, 255, 255);
+}
+
+.aggBoth_right h2 span {
+    background: linear-gradient(90deg, rgb(209, 160, 255) 0%, rgb(218, 191, 255) 100%) text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aggBoth_right p {
+    margin-top: 45px;
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(131, 131, 131);
+}
+
+.aggButton_div {
+    margin-top: 45px;
+    display: flex;
+}
+
+.start_creating_btn {
+    position: relative;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: center;
+    flex-flow: row;
+    gap: 0px;
+    max-width: 206px;
+    width: 100%;
+    border: none;
+    background-color: rgb(108, 82, 238);
+    min-width: 120px;
+    transition: all 0.5s ease 0s;
+    min-width: 206px;
+    border-radius: 10px;
+
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.view_roadmap_btn {
+    width: 100%;
+    max-width: 206px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 61px;
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    transition: color 0.4s ease 0s;
+    min-width: 206px;
+}
+.view_roadmap_btn:hover{
+    color: rgb(108, 82, 238);
+}
+
+.aggregate_alpha {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 170px;
+    margin-bottom: 370px;
+}
+
+.agg_planeDiv {
+    width: 100%;
+}
+
+.agg_planeDiv h2 {
+    opacity: 1;
+    transform: none;
+    margin: 0px auto;
+    max-width: 800px;
+    font-family: Syne;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 68px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.agg_alphaBtn_div {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    gap: 30px;
+    opacity: 1;
+    transform: none;
+}
+
+.Agg_addList {
+    width: 100%;
+    max-width: 460px;
+    border-radius: 50px;
+    height: 74px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 15px;
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.agg_arrow{
+    position: absolute;
+    left: -140px;
+    top: 75px;
+    z-index: 11;
+    width: 190.986px;
+    height: auto;
+}
+.bgClass1 {
+    background-color: rgb(73, 92, 236);
+}
+
+.bgClass2 {
+    background-color: rgb(255, 117, 76);
+}
+
+.bgClass3 {
+    background-color: rgb(108, 82, 238);
+}
+
+.agg_alpha_img {
+    opacity: 1;
+    transform: none;
+    width: 100%;
+}
+
+.agg_alphaImg_inner {
+    width: 100%;
+    padding: 100px 122px 0px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+}
+
+.agg_inner_plane {
+    width: 100%;
+    max-width: 1195px;
+    height: 532.75px;
+}
+
+.agg_inner_planeFlex {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.agg_inner_planeFlex img {
+    position: absolute;
+}
+
+.agg_inner_selected {
+    width: 164px;
+    height: 40px;
+    background: rgb(35, 35, 37);
+    border-radius: 7px;
+    padding: 5px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    position: absolute;
+    z-index: 5;
+    right: 418.834px;
+    top: 148.433px;
+}
+
+.agg_inner_selected div {
+    height: 100%;
+    width: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8341px;
+    line-height: 16px;
+    color: rgb(131, 131, 131);
+}
+
+.numberCount {
+    background-color: rgb(108, 82, 238);
+    color: white !important;
+}
+
+.agg_alphaMobImg {
+    display: none;
+}
+
+.alpha_find {
+    width: 100%;
+    position: absolute;
+    bottom: -150px;
+    padding: 0px 120px;
+    left: 0px;
+    height: 217px;
+    background: rgb(108, 82, 238);
+    border-radius: 20px;
+    overflow: auto;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.alpha_findLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.alpha_findLeft h3 {
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: rgb(255, 255, 255);
+}
+
+.alpha_findLeft p {
+    max-width: 475px;
+    width: 100%;
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+.alpha_findRight{
+    display: flex;
+    width: 500px;
+    gap: 45px;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+.free_try_btn{
+    position: relative;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: center;
+    flex-flow: row;
+    gap: 0px;
+    max-width: 206px;
+    width: 100%;
+    border: none;
+    background-color: white;
+    min-width: 25px;
+    font-weight: 500;
+    color: rgb(108, 82, 238);
+    transition: all 0.5s ease 0s;
+    min-width: 206px;
+    border-radius: 10px;
+}
+.follow_twit_btn{
+    position: relative;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: center;
+    flex-flow: row;
+    gap: 0px;
+    max-width: 206px;
+    width: 100%;
+    /* border: none; */
+    background-color: transparent;
+    min-width: 25px;
+    font-weight: 500;
+    transition: all 0.5s ease 0s;
+    color: rgb(255, 255, 255);
+    min-width: 206px;
+    border-top: 1px solid rgb(214, 209, 233);
+    border-bottom: 1px solid rgb(214, 209, 233);
+    border-image: initial;
+    border-right: none;
+    border-left: none;
+}
+.follow_twit_btn:hover{
+    border: transparent;
+}
+.follow_twit_btn div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.aggregate_noSpam{
+    padding: 272px 0px 0px 120px;
+}
+.aggregate_noSpam_main{
+    display: flex;
+    gap: 68px;
+    height: 730px;
+    position: relative;
+    overflow: hidden;
+}
+.agg_noSpam_left{
+    position: absolute;
+    max-width: 538px;
+    min-width: 538px;
+    width: 100%;
+    cursor: default;
+}
+.agg_Spam_titleDiv{
+    font-family: Syne;
+    line-height: 54px;
+    font-weight: 700;
+    font-size: 46px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 45px
+}
+.agg_titleSpan{
+    background: linear-gradient(90deg, rgb(209, 160, 255) 0%, rgb(218, 191, 255) 100%) text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    display: inline-block;
+    margin-left: 22px;
+}
+.alpha_roundTitle{
+    position: absolute;
+    left: -17px;
+}
+.agg_spam_dec{
+    font-family: Formular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(131, 131, 131);
+    margin-bottom: 50px;
+}
+.agg_spam_decTwo{
+    color: white;
+    margin-bottom: 30px;
+    transition: color 0.6s ease 0s;
+    font-family: Formular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.agg_spam_downArr{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    overflow: hidden;
+    height: 46px;
+}
+.all_Step{
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 30px;
+    transition: color 0.6s ease 0s;
+    font-family: Formular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.dotted_desc{
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 30px;
+    transition: color 0.6s ease 0s;
+    font-family: Formular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.agg_noSpam_right{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    height: 100px;
+    margin-top: 160px;
+    position: absolute;
+    right: 20px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.agg_right_firstImg{
+    left: 0px;
+    width: 568px;
+    height: 318px;
+    position: relative;
+    right: -100%;
+}
+.agg_right_firstImg img{
+    color: transparent;
+    object-fit: cover;
+    object-position: center;
+}
+.agg_right_secondImg{
+    top: 52px;
+    width: 371px;
+    height: 244px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.7) -4px 4px 10px);
+    opacity: 0.4;
+    left: 0px;
+    position: relative;
+    right: -100%;
+}
+.agg_right_subFirst{
+    position: absolute;
+    top: -22px;
+    width: 371px;
+    height: 244px;
+    z-index: 0;
+    scale: 1;
+    transition: scale 0.3s ease 0s;
+}
+.agg_right_subFirst img{
+    color: transparent;
+}
+.agg_right_subSecond{
+    position: absolute;
+    top: -5px;
+    left: 35px;
+    width: 371px;
+    height: 244px;
+}
+.agg_right_subSecond img{
+    color: transparent;
+}
+.agg_thirdright_Img{
+    top: 100px;
+    opacity: 0.4;
+    width: 400px;
+    position: relative;
+    right: -100%;
+    left: 0px;
+}
+.agg_thirdright_Img img{
+    color: transparent;
+    object-fit: contain;
+    object-position: center;
+}
+.agg_noSpam_overlay{
+    width: 100%;
+    height: 479px;
+    overflow: auto;
+    opacity: 0;
+    z-index: 3;
+    position: relative;
+    bottom: -91px;
+}
+.agg_spam_overRight{
+    height: 3500px;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    position: relative;
+}
+.agg_spam_overstick{
+    position: sticky;
+    height: 300px;
+    top: -23px;
+    width: 450px;
+    z-index: 1;
+    margin-right: 110px;
+}
