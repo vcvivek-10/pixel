@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path='/gitLink' element={<Main />} />
+        <Route path='/pixel/' element={<Main />} />
       </Routes>
       <Footer />
     </Router>
